@@ -1,0 +1,16 @@
+header{
+    border-bottom: 5px solid blue;
+    margin: -8px;
+    padding: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img#logo{
+    width: 100px;
+}
+div#header img{
+    margin-top: -25px;
+    position: absolute;
+}
+div#header h1{
+    margin-left: 45%;
+}
