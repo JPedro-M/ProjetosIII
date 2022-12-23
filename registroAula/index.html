@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistroAula</title>
+    <link rel="stylesheet" href=".//css/index.css">
+    <script src=".//script/script.js"></script>
+</head>
+
+<body>
+        <div id="registro">
+            <fieldset>
+                <legend>Nome</legend>
+                <label for="nome"></label>
+                <input type="text" name="nome" id="nome" placeholder="Ex.: Bruno">
+            </fieldset>
+            <fieldset>
+                <legend>Genero</legend>
+                <input type="radio" name="genero" id="masculino" value="Masculino" checked="true">
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="genero" id="feminino" value="Feminino">
+                <label for="masculino">Feminino</label>
+                <input type="radio" name="genero" id="outro" value="Outro">
+                <label for="outro">Outro</label>
+            </fieldset>
+            <fieldset>
+                <legend>Data</legend>
+                <label for="data"></label>
+                <input type="date" name="data" id="data">
+            </fieldset>
+            <fieldset>
+                <legend>Salário bruto</legend>
+                <label for="bruto"></label>
+                <input type="number" name="bruto" id="bruto">
+            </fieldset>
+            <button type="submit" value="Salvar" onclick="executar()">Salvar</button>
+            <button type="reset" onclick="limpar()">Limpar</button>
+            <div class="res" id="resultado"></div>
+        </div>
+</body>
+
+</html>

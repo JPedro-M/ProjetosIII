@@ -1,0 +1,35 @@
+body{
+    background-color: #9ddacb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+}
+header, header h1{
+    background-color: #9c7a9d;
+    padding: 20px;
+    margin: -8px;
+}
+header a, header h4{
+    color: black;
+    text-decoration: none;
+    background-color: #9c7a9d;
+    padding-left: 10px;
+}
+footer h3{
+    background-color: #9c7a9d;
+    padding: 20px;
+    margin: -8px;
+}
+div#registro{
+    margin: 50px 400px;
+    background-color: rgba(248, 220, 180, 0.9);
+    padding: 20px;
+}
+#registro input, #registro fieldset, #registro legend, #registro label{
+    background-color: rgba(248, 220, 180, 0.8);
+}
+#registro button{
+    margin: 10px;
+    padding: 5px;
+}

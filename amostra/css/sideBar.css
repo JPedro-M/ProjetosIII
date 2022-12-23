@@ -1,0 +1,18 @@
+div.sideBarContainer{
+    margin-top: 15px;
+    position: absolute;
+}
+div.sideBar{
+    border-right: 2px solid blue;
+    padding-bottom: 100%;
+}
+a.sideBarButton{
+    background-color: rgb(60, 60, 255);
+    padding: 0.4px 40px;
+    text-decoration: none;
+    color: black;
+}
+a.sideBarButton:hover{
+    background-color: rgb(22, 22, 92);
+    color: white;
+}

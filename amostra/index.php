@@ -7,11 +7,12 @@
     <title>Amostra</title>
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/sideBar.css">
     <script src="scripts/index.js"></script>
 </head>
 <body>
-    <?php require_once 'includes/sideBar.php'?>
     <?php require_once 'includes/header.php'?>
+    <?php require_once 'includes/sideBar.php'?>
     <div class="conteudo" id="conteudo">
         <h2>Titulo de texto</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, temporibus, modi dicta quaerat repellendus eos quae quas provident deserunt fugit, libero molestiae asperiores eligendi quibusdam esse. Provident doloremque incidunt deserunt?</p>

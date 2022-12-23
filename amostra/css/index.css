@@ -3,4 +3,8 @@ div.conteudo{
 }
 div.conteudo img{
     width: 50%;
+
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
 }
